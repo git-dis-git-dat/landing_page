@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .page-container {
@@ -7,6 +9,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 /* HEADER AND HERO */
@@ -21,17 +28,43 @@ body {
     display: flex;
     justify-content: space-between;
     flex-basis: 100%;
-    margin: 0px 10vw;
+    margin: 16px 15vw;
+}
+
+.header-link {
+    text-decoration: none;
+    
 }
 
 .hero-and-image {
     display: flex;
+    gap: 40px;
     flex-basis: 100%;
-    margin: 0px 10vw;
+    margin: 0px 15vw;
+    padding-top: 56px;
+    padding-bottom: 96px;
+
 }
 
 .hero {
     width: 50%;
+}
+
+.hero-header{
+    margin: 0px;
+}
+
+.hero-p {
+    margin: 0px;
+    /* margin-right: 16px; */
+}
+
+.hero-btn {
+    margin-top: 8px;
+    border-style: none;
+    border-radius: 7px;
+    padding: 8px 32px;
+    
 }
 
 .hero-img {
@@ -39,11 +72,34 @@ body {
     width: 50%;
     height: 100%;
 }
+
+.header-link, .hero-p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-left, .hero-header {
+    color: #F9FAF8;
+}
+
+.header-left {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.header-link {
+    margin-left: 8px;
+    
+}
+
+.hero-header {
+    font-size: 48px;
+}
 /* RANDOM INFO */
 
 .random-info {
     flex-basis: 100%;
-    margin: 0px 10vw;
+    margin: 0px 15vw;
 }
 
 .random-info-h2 {
@@ -70,7 +126,7 @@ img {
     text-align: center;
 }
 
-/*  QUOTE */
+/* QUOTE */
 
 .quote {
     background-color: #E5E7EB;
@@ -78,14 +134,14 @@ img {
 
 .quote-p, .quote-signature {
     flex-basis: 100%;
-    margin: 0px 10vw;
+    margin: 0px 15vw;
 }
 
 /* CALL TO ACTION */
 
 .cta-box {
     flex-basis: 100%;
-    margin: 0px 10vw;
+    margin: 0px 15vw;
     display: flex;
     background-color: #3882F6;
 }
@@ -101,5 +157,5 @@ img {
 
 .footer-text {
     flex-basis: 100%;
-    margin: 0px 10vw;
+    margin: 0px 15vw;
 }
