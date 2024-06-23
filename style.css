@@ -1,3 +1,19 @@
 body {
     margin: 0px;
 }
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-and-hero{
+    display: flex;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
