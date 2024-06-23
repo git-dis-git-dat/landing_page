@@ -28,18 +28,17 @@ body {
     display: flex;
     flex-basis: 100%;
     margin: 0px 10vw;
-    /* background-color: #1F2937; */
-
 }
 
 .hero {
     width: 50%;
 }
 
-.hero-image {
+.hero-img {
+    background-color: gainsboro;
     width: 50%;
+    height: 100%;
 }
-
 /* RANDOM INFO */
 
 .random-info {
@@ -58,8 +57,6 @@ body {
 }
 
 .img-container {
-    /* display: flex;
-    flex-direction: column; */
     height: 236px;
     width: 128px;
 }
