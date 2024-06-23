@@ -7,13 +7,33 @@ body {
     flex-direction: column;
 }
 
+/* HEADER AND HERO */
+
 .header-and-hero{
     display: flex;
-    
+    flex-direction: column;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     flex-basis: 100%;
+    margin: 0px 10vw;
+}
+
+.hero-and-image {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0px 10vw;
+    background-color: #1F2937;
+
+}
+
+.hero {
+    width: 50%;
+}
+
+.hero-image {
+    width: 50%;
 }
