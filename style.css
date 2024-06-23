@@ -37,3 +37,36 @@ body {
 .hero-image {
     width: 50%;
 }
+
+/* RANDOM INFO */
+
+.random-info {
+    flex-basis: 100%;
+    margin: 0px 10vw;
+}
+
+.random-info-h2 {
+    text-align: center;
+}
+
+.random-info-imgs-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px; */
+}
+
+.img-container {
+    /* display: flex;
+    flex-direction: column; */
+    height: 128px;
+    width: 128px;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+}
+
+.img-sub {
+    text-align: center;
+}
