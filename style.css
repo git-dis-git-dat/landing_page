@@ -5,6 +5,8 @@ body {
 .page-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 /* HEADER AND HERO */
@@ -26,7 +28,7 @@ body {
     display: flex;
     flex-basis: 100%;
     margin: 0px 10vw;
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
 
 }
 
@@ -58,7 +60,7 @@ body {
 .img-container {
     /* display: flex;
     flex-direction: column; */
-    height: 128px;
+    height: 236px;
     width: 128px;
 }
 
@@ -69,4 +71,38 @@ img {
 
 .img-sub {
     text-align: center;
+}
+
+/*  QUOTE */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-p, .quote-signature {
+    flex-basis: 100%;
+    margin: 0px 10vw;
+}
+
+/* CALL TO ACTION */
+
+.cta-box {
+    flex-basis: 100%;
+    margin: 0px 10vw;
+    display: flex;
+    background-color: #3882F6;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footer-text {
+    flex-basis: 100%;
+    margin: 0px 10vw;
 }
